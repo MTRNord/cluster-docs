@@ -38,4 +38,6 @@ Authentik provides the central SSO and identity management for the cluster.
 
 == Recovery Procedures
 
+NOTE: Some of this is already being handled by recovering the database and redeploying. Only the Redis is not backed up.
+
 Not available yet.

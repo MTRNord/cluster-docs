@@ -1,0 +1,20 @@
+= Envoyproxy
+:doctype: book
+:author: MTRNord
+:revnumber: 1.0
+:revdate: 2025-03-21
+
+Envoyproxy Gateway provides the ingress for the cluster using the Kubernetes Gateway API.
+
+== Application Overview
+
+- **Website**: https://gateway.envoyproxy.io/
+- **Deployed Version**: >=1.2.7
+- **Namespace**: envoy-gateway
+- **Helm Chart**: Official Helm Chart (oci://docker.io/envoyproxy/gateway-helm)
+- **Are Alerts setup?**: No
+- **Backups**: None
+
+== Recovery Procedures
+
+Redeploy the Helm Chart.

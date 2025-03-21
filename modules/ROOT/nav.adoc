@@ -1,5 +1,6 @@
 * Concepts
 * Applications
-** xref:authentik.adoc[]
 * Infrastructure
+** xref:envoy.adoc[]
+** xref:authentik.adoc[]
 
