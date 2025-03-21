@@ -1,0 +1,51 @@
+= {APPLICATION_NAME} Template
+:doctype: book
+:author: MTRNord
+:revnumber: 1.0
+:revdate: 2025-03-20
+
+The description of the application goes here.
+
+== Application Overview
+
+- **Git Repository**: [Insert repository URL] - The Git repository where the Project is available at.
+- **Deployed Version**: [Insert version] - The version of the application deployed in the cluster.
+- **Namespace**: [Insert namespace] - The Kubernetes namespace where the application is deployed.
+- **Helm Chart**: [Insert chart name or path] - If applicable, the Helm chart used to deploy the application.
+- **Address**: [Insert application URL] - The URL where the application can be accessed.
+- **Monitoring**: [Insert monitoring URL] - The URL where the monitoring dashboard can be accessed.
+- **Are Alerts setup?**: [Insert yes/no] - If alerts are setup for the application.
+- **Backups**: [Insert backup strategy] - The backup strategy used for the application.
+
+== Application Components
+
+=== Volumes
+
+[cols="2,2,2,2"]
+|===
+| Name | Size | Storageclass | Description 
+| [Insert volume name] | [Insert volume size] | [Insert volume type] | [Insert volume description]
+| [Insert volume name] | [Insert volume size] | [Insert volume type] | [Insert volume description]
+|===
+
+=== Databases
+
+[cols="2,2,2,2"]
+|===
+| Name | Table | User | Description
+| [Insert database name] | [Insert database version] | [Insert database type] | [Insert database description]
+| [Insert database name] | [Insert database version] | [Insert database type] | [Insert database description]
+|===
+
+=== Other Components it uses
+
+[cols="2,2,2,2"]
+|===
+| Name | Version | Type | Description
+| [Insert component name] | [Insert component version] | [Insert component type] | [Insert component description]
+| [Insert component name] | [Insert component version] | [Insert component type] | [Insert component description]
+|===
+
+== Recovery Procedures
+
+How to recover the application in case of failure.

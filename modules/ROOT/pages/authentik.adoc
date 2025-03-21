@@ -1,0 +1,41 @@
+= Authentik
+:doctype: book
+:author: MTRNord
+:revnumber: 1.0
+:revdate: 2025-03-21
+
+Authentik provides the central SSO and identity management for the cluster.
+
+== Application Overview
+
+- **Website**: https://authentik.io[Authentik] - The website of the Authentik project.
+- **Deployed Version**: 2025.2.1
+- **Namespace**: authentik
+- **Helm Chart**: Official Helm Chart
+- **Address**:
+    - **Web UI**: https://auth.midnightthoughts.space
+    - **LDAP**: ldap://ldap.midnightthoughts.space:389
+- **Are Alerts setup?**: No
+- **Backups**: None
+
+== Application Components
+
+=== Volumes
+
+[cols="2,2,2,2"]
+|===
+| Name | Size | Storageclass | Description 
+| redis-data-authentik-redis-master-0 | 8Gi | ceph-filesystem | Redis storage for the Authentik Redis instance.
+|===
+
+=== Databases
+
+[cols="2,2,2,2"]
+|===
+| Name | Table | User | Description
+| Postgres Cluster | authentik | authentik | Main database for Authentik.
+|===
+
+== Recovery Procedures
+
+Not available yet.
