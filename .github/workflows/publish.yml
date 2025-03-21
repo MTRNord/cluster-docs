@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: "22"
       - name: Install Antora
-        run: npm i antora
+        run: npm i
       - name: Generate Site
         run: npx antora antora-playbook.yml
       - name: Create CNAME file
