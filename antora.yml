@@ -1,5 +1,5 @@
 name: cluster-docs
-version: ~
+version: true
 title: Cluster Docs
 nav:
 - modules/ROOT/nav.adoc
