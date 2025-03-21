@@ -28,10 +28,10 @@ jobs:
           node-version: "22"
       - name: Install Antora
         run: npm i antora
-      - name: Create CNAME file
-        run: echo docs.midnightthoughts.space > build/site/CNAME
       - name: Generate Site
         run: npx antora antora-playbook.yml
+      - name: Create CNAME file
+        run: echo docs.midnightthoughts.space > build/site/CNAME
       - name: Create nojekyll file
         run: touch build/site/.nojekyll
       - name: Upload Artifacts
