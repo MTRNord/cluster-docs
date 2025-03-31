@@ -1,5 +1,4 @@
 = Envoyproxy
-:doctype: book
 :author: MTRNord
 :revnumber: 1.0
 :revdate: 2025-03-21

@@ -1,0 +1,24 @@
+= Firewall
+
+The firewall is managed by kops. However this represents the current setup.
+
+This is done using Hetzner Hardware Firewall.
+This means it defaults to deny any inbound and allow any outgoing.
+
+== Control Plane
+
+[cols="2,2,2,2"]
+|===
+| Direction | IPs | Protocol | Port Range
+| Inbound   | Any | TCP      | 22
+|===
+
+== Nodes
+
+[cols="2,2,2,2"]
+|===
+| Direction | IPs | Protocol | Port Range
+| Inbound   | Any | TCP      | 22
+| Inbound   | Any | TCP      | 30000-32767
+| Inbound   | Any | UDP      | 30000-32767
+|===

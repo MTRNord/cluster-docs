@@ -1,6 +1,7 @@
 * Concepts
 * Applications
 * Infrastructure
+** xref:firewall.adoc[]
 ** xref:envoy.adoc[]
 ** xref:authentik.adoc[]
 
